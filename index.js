@@ -9,62 +9,62 @@ const songsData = [
     {
         id : 1,
         songName: " Arambh Hai Prachand",
-        songImage:"assets/images/1.jpg",
+        songImage:"assets/images/1.webp",
     },
     {
         id : 2,
         songName: " Ziddi Hai",
-        songImage:"assets/images/2.jpg",
+        songImage:"assets/images/2.webp",
     },
     {
         id : 3,
         songName: "Sultan",
-        songImage:"assets/images/3.jpg"
+        songImage:"assets/images/3.webp"
     },
     {
         id : 4,
         songName: " Sanju",
-        songImage:"assets/images/4.jpg"
+        songImage:"assets/images/4.webp"
     },
     {
         id : 5,
         songName: "Restart:12th Fail",
-        songImage:"assets/images/5.jpg"
+        songImage:"assets/images/5.webp"
     },
     {
         id : 6,
         songName: "Mat Kar Maya Ka Ahankar",
-        songImage:"assets/images/6.jpg"
+        songImage:"assets/images/6.webp"
     },
     {
         id : 7,
         songName: "Restart:12th Fail",
-        songImage:"assets/images/7.jpg"
+        songImage:"assets/images/7.webp"
     },
     {
         id : 8,
         songName: "Kya Leke Aaya Jagat Me",
-        songImage:"assets/images/8.jpg"
+        songImage:"assets/images/8.webp"
     },
     {
         id : 9,
         songName: "Dangal",
-        songImage:"assets/images/9.jpg"
+        songImage:"assets/images/9.webp"
     },
     {
         id : 10,
         songName: "Bulleya:Sultan",
-        songImage:"assets/images/10.jpg"
+        songImage:"assets/images/10.webp"
     },
     {
         id : 11,
         songName: "Bandeya",
-        songImage:"assets/images/11.jpg"
+        songImage:"assets/images/11.webp"
     },
     {
         id : 12,
         songName: "Arambh Hai Prachand",
-        songImage:"assets/images/1.jpg"
+        songImage:"assets/images/1.webp"
     }
 ]
 
@@ -149,7 +149,7 @@ Array.from(document.getElementsByClassName('overlayPlay')).forEach((element)=>{
                 
             music.src = `assets/songs/${index}.mp3`;
         
-            masterPlayPoster.src = `assets/images/${index}.jpg`; 
+            masterPlayPoster.src = `assets/images/${index}.webp`; 
             music.play();
             let song_title = songsData.filter((ele)=>{
                 return ele.id == index ;
@@ -252,7 +252,7 @@ back.addEventListener('click',()=>{
     }
     music.src = `assets/songs/${index}.mp3`;
         
-    masterPlayPoster.src = `assets/images/${index}.jpg`; 
+    masterPlayPoster.src = `assets/images/${index}.webp`; 
     music.play();
     let song_title = songsData.filter((ele)=>{
         return ele.id == index ;
@@ -278,7 +278,7 @@ next.addEventListener('click',()=>{
     }
     music.src = `assets/songs/${index}.mp3`;
         
-    masterPlayPoster.src = `assets/images/${index}.jpg`; 
+    masterPlayPoster.src = `assets/images/${index}.webp`; 
     music.play();
     let song_title = songsData.filter((ele)=>{
         return ele.id == index ;
